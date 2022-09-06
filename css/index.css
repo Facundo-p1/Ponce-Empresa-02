@@ -212,3 +212,18 @@ font-style: italic;
         background-color: black;
     }
   }
+
+  .card__img{
+    animation: movimiento 3s linear infinite;
+  }
+  @keyframes movimiento{
+    0%{
+        transform: translateY(0);
+     }
+     50%{
+        transform: translateY(30px);
+     }
+    100%{
+        transform: translateY(0);
+    }
+     }
