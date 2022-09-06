@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrate</title>
+    <link rel="shortcut icon" href="https://cdn.discordapp.com/attachments/991789772370620427/1006713581838012557/phto.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/index.css">
+</head>
+<body>
+    <header>
+        <section>
+            <article class="card">
+                <img class="card__img" src="https://cdn.discordapp.com/attachments/991789772370620427/1009560884147925052/defaultAngular.jpg" alt="imagen-prdct">
+        <h3 class="logo">
+            <a href="../index.html" class="logo"> STOREPHONE.PON</a>
+        </h3>
+        <nav class="nav">
+            <ul>
+                <li class="nav__lista"><a class="nav" href="../index.html">Inicio</a></li>
+                <li class="nav__lista"><a class="nav" href="../Paginas/productos.html">Productos</a></li>
+                <li class="nav__lista"><a class="nav" href="../Paginas/registrate.html">Registrate</a></li>
+                <li class="nav__lista"><a class="nav" href="../Paginas/contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+        </article>
+    </section>
+    </header>
+        <h1 class="inform">REGISTRESE</h1>
+        <section class="register">
+        <form action="send.php" method="get" enctype="multipart/form-data">
+            <!-- textos -->
+
+            <label for="nombre">Escriba su Nombre</label>
+            <input class="registro" type="text" placeholder="Escriba su Nombre" id="nombre"/>
+
+            <label for="Apellido">Escriba su Apellido</label>
+            <input class="registro"  type="text" placeholder="Escriba su Apellido" id="Apellido"/>
+
+            <label for="Email">Escriba su Email</label>
+            <input class="registro" type="email" placeholder="Escriba su Email" id="Email"/>
+
+            <label for="password">Escriba su contraseña</label>
+            <input class="registro"  type="password" placeholder="Escriba su contraseña" id="password"/>
+
+            <label for="contraseña">Confirme su contraseña</label>
+           <input class="registro"  type="password" placeholder="Confirme su contraseña" id="contraseña"/>  
+           <button class="bottom" type="submit">Enviar informacion</button>
+           <button class="bottom" type="reset">Limpiar formulario</button>
+        </section>
+        </form>
+</body>
+</html>

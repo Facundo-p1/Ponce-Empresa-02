@@ -1,0 +1,214 @@
+.card__img {
+    width:1880px;
+    height:500;
+}
+
+.logo{
+    background-color:orangered;
+    height: 50px;
+    color: black;
+    font-size: 40px;
+    font-style: italic;
+    text-align: center;
+    margin: 0%;
+    }
+
+    .nav__lista{
+        background-color: black;
+        text-align: center;
+        display: inline-block;
+        padding: 5px;
+        margin: 0%;
+    }
+    
+    .nav{
+        background-color: black;
+        color: white;
+        text-align: center;
+        text-decoration:none;
+        font-style: italic;
+        font-size:medium;
+        margin: 0%;
+    }
+
+
+.store{
+    display: flex;
+    justify-content: center;
+}
+
+.info__sn{
+background-color: orangered;
+text-align: center;
+font-size: 30px;
+font-style: italic;
+}
+
+.info__sa{
+    background-color: black;
+    color: white;
+    font-size: 27px;
+    font-style: normal;
+}
+
+.novedades_title{
+    background-color: orangered;
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+}
+
+.novedades_info{
+    background-color: black;
+    color: white;
+    font-size: 27px;
+    font-style: italic;
+}
+
+.img{
+    display: block;
+
+    
+}
+.img__xi{
+    margin-right: 30px;
+    margin-bottom: 30px;
+
+}
+.img__iph{
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.img__mc{
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.img__rz{
+    margin-bottom: 30px;
+}
+
+.inform{
+    background-color: orangered;
+    text-align: center;
+    font-style: italic;
+    font-size: 40px;
+}
+
+.register{
+    width:500px;
+    background-color: orangered;
+    padding:30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+}
+
+.registro{
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    margin-bottom: 16px;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    }
+    .bottom{
+        border-radius: 30px;
+        padding: 12px;
+        margin: 16px;
+        width: 100%;
+    }
+     
+.prdc{
+    text-align: center;
+    background-color: orangered;
+}
+.mrc{
+    background-color: orangered;
+    text-align: center;
+}
+
+.cnct{
+    background-color: orangered;
+    text-align: center;
+    font-size: larger;
+    font-style: italic;
+}
+
+.ubica{ 
+    display: inline;
+
+}
+
+.ubica__ubi{
+    background-color: orangered;
+    text-align: center;
+    font-size: larger;
+    font-style: italic;
+}
+
+
+.Pdrco {
+  margin-top: 60px;
+  padding: 0 20px;
+}
+
+.Pdrco__contenido {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
+  .Tarj {
+    background-color: rgb(241, 241, 241);
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 0 25px 50px -10px black;
+  }
+  
+  .Tarj__titu {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .Tarj__desc {
+    margin-bottom: 40px;
+  }
+  
+  .Tarj__link {
+    background-color: orangered;
+    display: inline-block;
+    width: 100%;
+    padding: 15px 0;
+    text-align: center;
+    color: black;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .Tarj__h-img {
+    width: 100%;
+    border-radius: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .Tarj__h {
+    position: relative;
+  }
+ 
+  @media (min-widht:320px) {
+    .card__img{
+        width: 180px;
+        height: 500px;
+    }
+    .info__sa{
+        color: yellow;
+        background-color: black;
+    }
+  }
