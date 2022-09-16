@@ -1,0 +1,20 @@
+{
+  "name": "ponce-empresa-02",
+  "version": "1.0.0",
+  "description": "Ponce-empresa",
+  "main": "index.js",
+  "scripts": {
+    "build-sass": "node-sass --include-path scss ./scss/style.scss ./css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Facundo-p1/Ponce-Empresa-02.git"
+  },
+  "author": "Facundo Ponce",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Facundo-p1/Ponce-Empresa-02/issues"
+  },
+  "homepage": "https://github.com/Facundo-p1/Ponce-Empresa-02#readme"
+
+}
