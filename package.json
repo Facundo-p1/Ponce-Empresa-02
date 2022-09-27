@@ -4,7 +4,7 @@
   "description": "Ponce-empresa",
   "main": "index.js",
   "scripts": {
-    "build-sass": "node-sass --include-path scss ./scss/style.scss ./css/style.css"
+    "build-sass": "node-sass --include-path scss ./scss/style.scss ./css/style.css -w "
   },
   "repository": {
     "type": "git",
@@ -15,6 +15,8 @@
   "bugs": {
     "url": "https://github.com/Facundo-p1/Ponce-Empresa-02/issues"
   },
-  "homepage": "https://github.com/Facundo-p1/Ponce-Empresa-02#readme"
-
+  "homepage": "https://github.com/Facundo-p1/Ponce-Empresa-02#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.3"
+  }
 }

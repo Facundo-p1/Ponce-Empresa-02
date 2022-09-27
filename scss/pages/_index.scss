@@ -1,0 +1,33 @@
+.Tarj {
+  background-color: rgb(241, 241, 241);
+  padding: 20px;
+  border-radius: 30px;
+  box-shadow: 0 25px 50px -10px black;
+}
+
+.Tarj__titu {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.Tarj__desc {
+  margin-bottom: 40px;
+}
+
+.Tarj__link {
+  background-color: orangered;
+  display: inline-block;
+  width: 99%;
+  padding: 15px 0;
+  text-align: center;
+  color: black;
+  border-radius: 30px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.Tarj__h-img {
+  width: 99%;
+  border-radius: 30px;
+  margin-bottom: 20px;}
