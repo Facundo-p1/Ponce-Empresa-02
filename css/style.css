@@ -24,7 +24,7 @@
 }
 
 .Tarj {
-  background-color: white;
+  background-color: rgb(247, 242, 242);
   padding: 20px;
   border-radius: 30px;
   box-shadow: 0 25px 50px -10px black;
@@ -42,6 +42,7 @@
 
 .Tarj__desc {
   margin-bottom: 40px;
+ 
 }
 
 .Tarj__link {
@@ -61,6 +62,7 @@
   width: 99%;
   border-radius: 30px;
   margin-bottom: 20px;
+  
 }
   .info__sn{
     background-color: orangered;
