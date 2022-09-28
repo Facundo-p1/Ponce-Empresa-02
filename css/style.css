@@ -41,7 +41,7 @@
 }
 
 .Tarj__desc {
-  margin-bottom: 39px;
+  margin-bottom: 40px;
 }
 
 .Tarj__link {
@@ -124,15 +124,19 @@
             
         }
 
-        .img{
+        .main {background-color: black;}
+          
+        img{
           display: block;
           margin-right: 30px;
           margin-bottom: 30px;
-      }
+          padding: 15px;
+          border-radius: 30px;}
+      
+    
       .info__sa{
         background-color: black;
         color: white;
         font-size: 27px;
         font-style: normal;
       }
-/*# sourceMappingURL=style.css.map */
