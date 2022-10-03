@@ -1,0 +1,71 @@
+.logo {
+  background-color: orangered;
+  height: 99%;
+  color: black;
+  font-size: 40px;
+  font-style: italic;
+  text-align: center;
+  margin: 0%;
+}
+
+.nav {
+  background-color: black;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-style: italic;
+  font-size: medium;
+  margin: 0%;
+}
+
+.card__img {
+  width: 50%;
+  height: 50%;
+}
+
+.Tarj__h {
+  width: 99%;
+}
+.Tarj__h img {
+  width: 99%;
+}
+
+.Tarj {
+  background-color: white;
+  padding: 20px;
+  border-radius: 30px;
+  box-shadow: 0 25px 50px -10px black;
+  margin: 10px;
+}
+
+.Tarj__titu {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.Tarj__desc {
+  margin-bottom: 40px;
+}
+
+.Tarj__link {
+  background-color: orangered;
+  display: inline-block;
+  width: 99%;
+  padding: 15px 0;
+  text-align: center;
+  color: black;
+  border-radius: 30px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.Tarj__h-img {
+  width: 99%;
+  border-radius: 50px;
+  margin-bottom: 20px;
+}
+
+.header {
+  width: 2000%;
+}/*# sourceMappingURL=style.css.map */
