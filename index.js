@@ -14,7 +14,5 @@ for(let i = 0; i <1; i++){
    do{
     
     edad = parseInt (prompt ("Ingrese Su Edad"))
-
-    alert ("Ingresaste una edad menor a 18, unicamente se puede acceder siendo mayores de edad")
     
    } while (edad < 18)
