@@ -1,18 +1,18 @@
-for(let i = 0; i <1; i++){
 
-    const usuario = prompt ( "Ingrese Su Nombre")
+for(let i = 0; i < 1; i++) {
 
-    const mail = prompt ( "Ingrese Su Mail")
-
-    const direccion  = prompt ( "Ingrese Su Direccion")
-
-    const telefono = prompt ( "Ingrese Su Telfono")
-
-
+   const edad = parseInt(prompt("Ingrese la edad"));
+   
+   if(edad < 18) {
+   
+   alert("Se ingresó una edad menor a 18");
+   
+   break; }
    }
 
-   do{
-    
-    edad = parseInt (prompt ("Ingrese Su Edad"))
-    
-   } while (edad < 18)
+   function saludoinicial(){
+      document.write ("Bienvenidos a yasbakery");
+   }
+   
+   saludoinicial();
+   
